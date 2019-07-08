@@ -11,7 +11,8 @@ namespace Solutions
             //_03Permutation.Do();
             //_04ExistingPowersOf2.Do();
             //_05FindingPrimes.Do();
-            _06CommonDigit.Do();
+            //_06CommonDigit.Do();
+            //_07DigitSum.Do();
         }
     }
 }
