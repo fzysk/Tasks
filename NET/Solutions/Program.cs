@@ -10,7 +10,8 @@ namespace Solutions
             //_02Palindrome.Do();
             //_03Permutation.Do();
             //_04ExistingPowersOf2.Do();
-            _05FindingPrimes.Do();
+            //_05FindingPrimes.Do();
+            _06CommonDigit.Do();
         }
     }
 }
