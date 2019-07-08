@@ -17,6 +17,8 @@ namespace Solutions
                 string line = Console.ReadLine();
                 var splitted = line.Split(' ');
 
+                if (splitted.Length != 2) return;
+
                 m = ulong.Parse(splitted[0]);
                 n = ulong.Parse(splitted[1]);
 

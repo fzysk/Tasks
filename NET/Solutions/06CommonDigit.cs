@@ -10,8 +10,12 @@ namespace Solutions
         {
             int N = int.Parse(Console.ReadLine());  // length of array
 
+            if (N < 1) return;
+
             string line = Console.ReadLine(); // array of integers
             string[] array = line.Split(' ');
+
+            if (array.Length != N) return;
 
             Dictionary<char, int> dict = new Dictionary<char, int>();
             foreach (var word in array)
